@@ -22,6 +22,12 @@ public class lcm {
         
         System.out.println("LCM is "+lcm(a,b));
         
+        String s  = "naman.txt..sdcv.uu.gg";
+        String []name=s.split("\\.", 4);
+        for(String w:name)
+            System.out.println(w);
+        
+        
         
     }
 
@@ -36,5 +42,8 @@ public class lcm {
         else
             return gcd(b%a,a);
     }
+    
+    
+    
     
 }

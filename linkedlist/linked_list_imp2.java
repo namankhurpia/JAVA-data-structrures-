@@ -112,9 +112,7 @@ class linked_list_imp
         /* Start with the empty list */
         linked_list_imp llist = new linked_list_imp(); 
   
-        LinkedList ll=new LinkedList();
-        ll.add("dfv");
-        ll.add(8);
+        
         
         // Insert 6.  So linked list becomes 6->NUllist 
         llist.append(6); 
@@ -137,6 +135,6 @@ class linked_list_imp
   
         System.out.println("\nCreated Linked list is: "); 
         llist.printList(); 
-        System.out.println(ll);
+     
     } 
 }

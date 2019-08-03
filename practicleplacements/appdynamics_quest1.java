@@ -31,7 +31,7 @@ public class appdynamics_quest1 {
         }
     }
     
-    static int dowork(List<String> strArr,int s,int e)
+    static void dowork(List<String> strArr,int s,int e)
     {
         String temp;
         if(e==0)
@@ -46,7 +46,7 @@ public class appdynamics_quest1 {
 
             }
         }
-        return strArr<>;
+        //return strArr<>;
         
     }
     
